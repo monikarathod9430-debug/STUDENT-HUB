@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Log in to your Student Hub account.">
+  <title>Login | Student Hub</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <img src="images/logo.svg" alt="Student Hub logo" width="48" height="48">
+    <p><strong>Student Hub</strong></p>
+    <nav aria-label="Main navigation">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="login.html" aria-current="page">Login</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a>
+      </p>
+    </nav>
+  </header>
+  <hr>
+
+  <nav aria-label="Breadcrumb">
+    <p><a href="index.html">Home</a> &gt; Login</p>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <h1>Login</h1>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Your account</legend>
+        <p>
+          <label for="login-email">Email address</label>
+          <input type="email" id="login-email" name="email" required autocomplete="email">
+        </p>
+        <p>
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" name="password" required autocomplete="current-password">
+        </p>
+        <p>
+          <input type="checkbox" id="remember" name="remember">
+          <label for="remember">Remember me</label>
+        </p>
+      </fieldset>
+      <p><button type="submit">Login</button></p>
+    </form>
+
+    <p>New user? <a href="register.html">Create an account</a>.</p>
+  </main>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 Student Hub. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </footer>
+</body>
+</html>
