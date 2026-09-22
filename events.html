@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse upcoming Student Hub campus events.">
+  <title>Events | Student Hub</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <img src="images/logo.svg" alt="Student Hub logo" width="48" height="48">
+    <p><strong>Student Hub</strong></p>
+    <nav aria-label="Main navigation">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="login.html">Login</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="events.html" aria-current="page">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a>
+      </p>
+    </nav>
+  </header>
+  <hr>
+
+  <nav aria-label="Breadcrumb">
+    <p><a href="index.html">Home</a> &gt; Events</p>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <h1>Campus Events</h1>
+
+    <form action="#" method="get" role="search">
+      <label for="search">Search events</label>
+      <input type="text" id="search" name="q" placeholder="Type an event name">
+      <button type="submit">Search</button>
+    </form>
+
+    <section aria-labelledby="list-heading">
+      <h2 id="list-heading">Upcoming events</h2>
+      <article>
+        <figure>
+          <img src="images/poster1.svg" alt="Poster for Tech Fest 2026" width="200" height="120">
+          <figcaption>Tech Fest 2026 poster</figcaption>
+        </figure>
+        <h3>Tech Fest 2026</h3>
+        <p><time datetime="2026-10-15">15 October 2026</time> | Main Auditorium</p>
+        <p><a href="#">Read more about Tech Fest 2026</a></p>
+      </article>
+      <article>
+        <figure>
+          <img src="images/poster2.svg" alt="Poster for Sports Day" width="200" height="120">
+          <figcaption>Sports Day poster</figcaption>
+        </figure>
+        <h3>Sports Day</h3>
+        <p><time datetime="2026-10-22">22 October 2026</time> | College Ground</p>
+        <p><a href="#">Read more about Sports Day</a></p>
+      </article>
+      <article>
+        <figure>
+          <img src="images/poster3.svg" alt="Poster for Cultural Night" width="200" height="120">
+          <figcaption>Cultural Night poster</figcaption>
+        </figure>
+        <h3>Cultural Night</h3>
+        <p><time datetime="2026-11-05">05 November 2026</time> | Open Air Theatre</p>
+        <p><a href="#">Read more about Cultural Night</a></p>
+      </article>
+    </section>
+
+    <nav aria-label="Events pagination">
+      <ul>
+        <li><a href="#" aria-current="page">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+    </nav>
+  </main>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 Student Hub. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </footer>
+</body>
+</html>
