@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student dashboard with summary and recent events.">
+  <title>Student Dashboard | Student Hub</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <img src="images/logo.svg" alt="Student Hub logo" width="48" height="48">
+    <p><strong>Student Hub</strong></p>
+    <nav aria-label="Main navigation">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="login.html">Login</a> |
+        <a href="dashboard.html" aria-current="page">Dashboard</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a>
+      </p>
+    </nav>
+  </header>
+  <hr>
+
+  <nav aria-label="Breadcrumb">
+    <p><a href="index.html">Home</a> &gt; Dashboard</p>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <h1>Student Dashboard</h1>
+    <p>Welcome back, Student Name.</p>
+
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Summary</h2>
+      <dl>
+        <dt>Events joined</dt>
+        <dd>5</dd>
+        <dt>Upcoming events</dt>
+        <dd>2</dd>
+      </dl>
+    </section>
+
+    <section aria-labelledby="recent-heading">
+      <h2 id="recent-heading">Recent events</h2>
+      <table>
+        <caption>Events you have joined recently</caption>
+        <thead>
+          <tr>
+            <th scope="col">Event</th>
+            <th scope="col">Date</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tech Fest 2026</td>
+            <td><time datetime="2026-10-15">15 Oct 2026</time></td>
+            <td>Registered</td>
+          </tr>
+          <tr>
+            <td>Sports Day</td>
+            <td><time datetime="2026-10-22">22 Oct 2026</time></td>
+            <td>Registered</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside aria-labelledby="notice-heading">
+      <h2 id="notice-heading">Notices</h2>
+      <p>Complete your profile to get personalised event updates. <a href="profile.html">Go to profile</a>.</p>
+    </aside>
+  </main>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 Student Hub. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </footer>
+</body>
+</html>
