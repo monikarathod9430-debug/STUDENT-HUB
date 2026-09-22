@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Admin overview of students, events and users.">
+  <title>Admin Dashboard | Student Hub</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <img src="images/logo.svg" alt="Student Hub logo" width="48" height="48">
+    <p><strong>Student Hub</strong></p>
+    <nav aria-label="Main navigation">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="login.html">Login</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="admin.html" aria-current="page">Admin</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a>
+      </p>
+    </nav>
+  </header>
+  <hr>
+
+  <nav aria-label="Breadcrumb">
+    <p><a href="index.html">Home</a> &gt; Admin</p>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <h1>Admin Dashboard</h1>
+
+    <section aria-labelledby="manage-heading">
+      <h2 id="manage-heading">Manage</h2>
+      <ul>
+        <li><a href="#">Manage students</a></li>
+        <li><a href="#">Manage events</a></li>
+        <li><a href="#">Manage users</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="students-heading">
+      <h2 id="students-heading">Recent students</h2>
+      <table>
+        <caption>Recently added students</caption>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Course</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Student One</td><td>BCA</td></tr>
+          <tr><td>2</td><td>Student Two</td><td>MCA</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 Student Hub. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </footer>
+</body>
+</html>
