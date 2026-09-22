@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact the Student Hub team.">
+  <title>Contact | Student Hub</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <img src="images/logo.svg" alt="Student Hub logo" width="48" height="48">
+    <p><strong>Student Hub</strong></p>
+    <nav aria-label="Main navigation">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="login.html">Login</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html" aria-current="page">Contact</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a>
+      </p>
+    </nav>
+  </header>
+  <hr>
+
+  <nav aria-label="Breadcrumb">
+    <p><a href="index.html">Home</a> &gt; Contact</p>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <h1>Contact Us</h1>
+
+    <section aria-labelledby="form-heading">
+      <h2 id="form-heading">Send us a message</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="c-name">Your name</label>
+          <input type="text" id="c-name" name="name" required autocomplete="name">
+        </p>
+        <p>
+          <label for="c-email">Email address</label>
+          <input type="email" id="c-email" name="email" required autocomplete="email">
+        </p>
+        <p>
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" rows="5" required></textarea>
+        </p>
+        <p><button type="submit">Send message</button></p>
+      </form>
+    </section>
+
+    <aside aria-labelledby="address-heading">
+      <h2 id="address-heading">Our address</h2>
+      <address>
+        Student Hub Office<br>
+        College Campus<br>
+        Email: <a href="mailto:info@studenthub.example">info@studenthub.example</a>
+      </address>
+    </aside>
+  </main>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 Student Hub. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </footer>
+</body>
+</html>
